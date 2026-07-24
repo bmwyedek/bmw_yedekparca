@@ -141,3 +141,44 @@ nav a:hover{
 .card p{
     color:#666;
 }
+.models{
+    width:84%;
+    margin:80px auto;
+}
+
+.models h2{
+    text-align:center;
+    font-size:38px;
+    margin-bottom:40px;
+}
+
+.model-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.model-card{
+    background:#fff;
+    border-radius:18px;
+    padding:35px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+    cursor:pointer;
+}
+
+.model-card:hover{
+    transform:translateY(-8px);
+    background:#0066ff;
+    color:#fff;
+}
+
+.model-card p{
+    margin-top:10px;
+    color:#777;
+}
+
+.model-card:hover p{
+    color:#fff;
+}
