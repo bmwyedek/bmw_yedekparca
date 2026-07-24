@@ -1,1 +1,109 @@
 
+/* Google Font */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f7f8fa;
+    color:#222;
+}
+
+header{
+    width:100%;
+    background:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    box-shadow:0 2px 15px rgba(0,0,0,.08);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#0066ff;
+}
+
+nav{
+    display:flex;
+    gap:35px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#0066ff;
+}
+
+.btn{
+    background:#0066ff;
+    color:#fff;
+    padding:12px 25px;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#004dcc;
+}
+
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:80px 8%;
+}
+
+.left{
+    width:50%;
+}
+
+.left h1{
+    font-size:58px;
+    line-height:70px;
+    margin-bottom:20px;
+}
+
+.left p{
+    font-size:18px;
+    color:#666;
+    margin-bottom:35px;
+}
+
+.left button{
+    background:#0066ff;
+    color:white;
+    border:none;
+    padding:18px 35px;
+    border-radius:40px;
+    cursor:pointer;
+    font-size:17px;
+    transition:.3s;
+}
+
+.left button:hover{
+    background:#004dcc;
+}
+
+.right{
+    width:45%;
+}
+
+.right img{
+    width:100%;
+}
