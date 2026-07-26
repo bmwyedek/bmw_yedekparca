@@ -192,56 +192,54 @@ nav a:hover{
    BMW MODELLERİ
 ========================== */
 
-.models{
-    padding:90px 0;
-    background:#ffffff;
-}
-
-.section-title{
-    text-align:center;
-    margin-bottom:50px;
-}
-
-.section-title h2{
-    font-size:42px;
-    margin-bottom:10px;
-}
-
-.section-title p{
-    color:#666;
-    font-size:18px;
-}
-
 .model-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:25px;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
 }
 
 .model-card{
-    background:#f7f8fa;
-    padding:35px;
+
+    background:#fff;
+
     border-radius:20px;
-    text-align:center;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
+
     transition:.3s;
-    cursor:pointer;
-    border:1px solid #e5e5e5;
+
 }
 
 .model-card:hover{
-    background:#0066ff;
-    color:#fff;
-    transform:translateY(-8px);
+
+    transform:translateY(-10px);
+
 }
 
-.model-card span{
-    display:block;
-    margin-top:12px;
-    color:#777;
+.model-card img{
+
+    width:100%;
+
+    height:230px;
+
+    object-fit:cover;
+
 }
 
-.model-card:hover span{
-    color:#fff;
+.model-card h3{
+
+    margin:20px;
+
+}
+
+.model-card p{
+
+    margin:0 20px 20px;
+
+    color:#666;
+
 }
 /* ==========================
    VIN SEARCH
