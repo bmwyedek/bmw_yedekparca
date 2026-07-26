@@ -76,28 +76,27 @@ nav a:hover{
     transform:translateY(-3px);
 }
 
-/* ==========================
-   HERO
-========================== */
+/* HERO */
 
 .hero{
-    padding:80px 0;
+    padding:100px 0;
+    background:linear-gradient(180deg,#f8fbff,#ffffff);
 }
 
 .hero-content{
     display:flex;
     align-items:center;
     justify-content:space-between;
-    gap:50px;
+    gap:60px;
 }
 
 .hero-text{
     flex:1;
 }
 
-.badge{
+.hero-badge{
     display:inline-block;
-    background:#eaf2ff;
+    background:#eaf3ff;
     color:#0066ff;
     padding:10px 20px;
     border-radius:50px;
@@ -106,38 +105,22 @@ nav a:hover{
 }
 
 .hero-text h1{
-    font-size:60px;
+    font-size:64px;
     line-height:1.2;
-    margin-bottom:25px;
+    margin-bottom:20px;
 }
 
 .hero-text p{
     font-size:18px;
     color:#666;
+    line-height:1.8;
     margin-bottom:35px;
 }
 
 .hero-buttons{
     display:flex;
-    gap:20px;
-}
-
-.btn-primary{
-    background:#0066ff;
-    color:#fff;
-    text-decoration:none;
-    padding:16px 35px;
-    border-radius:40px;
-    font-weight:600;
-}
-
-.btn-secondary{
-    border:2px solid #0066ff;
-    color:#0066ff;
-    text-decoration:none;
-    padding:16px 35px;
-    border-radius:40px;
-    font-weight:600;
+    gap:15px;
+    margin-bottom:40px;
 }
 
 .hero-image{
@@ -147,7 +130,22 @@ nav a:hover{
 
 .hero-image img{
     width:100%;
-    max-width:600px;
+    max-width:650px;
+    border-radius:25px;
+}
+
+.hero-info{
+    display:flex;
+    gap:40px;
+}
+
+.hero-info h3{
+    font-size:34px;
+    color:#0066ff;
+}
+
+.hero-info span{
+    color:#666;
 }
 /* ==========================
    FEATURES
