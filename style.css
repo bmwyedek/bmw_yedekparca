@@ -588,3 +588,44 @@ footer{
 .testimonial-card h4{
     color:#0066ff;
 }
+/* ==========================
+   CONTACT
+========================== */
+
+.contact{
+    padding:100px 0;
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+.contact-box{
+    background:#fff;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.contact-box h3{
+    margin-bottom:20px;
+}
+
+.contact-box p{
+    margin-bottom:15px;
+    color:#555;
+}
+
+.contact-box i{
+    color:#0066ff;
+    margin-right:10px;
+}
+
+.contact-box iframe{
+    width:100%;
+    height:350px;
+    border:none;
+    border-radius:15px;
+}
