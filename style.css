@@ -629,3 +629,46 @@ footer{
     border:none;
     border-radius:15px;
 }
+/* ==========================
+   İSTATİSTİKLER
+========================== */
+
+.stats{
+
+    background:#0066ff;
+
+    padding:90px 0;
+
+}
+
+.stats .container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:30px;
+
+}
+
+.stat-box{
+
+    text-align:center;
+
+    color:#fff;
+
+}
+
+.stat-box h2{
+
+    font-size:55px;
+
+    margin-bottom:15px;
+
+}
+
+.stat-box p{
+
+    font-size:18px;
+
+}
