@@ -120,55 +120,40 @@
 
 <section class="features">
 <!-- BMW MODELLERİ -->
-    .model-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap:30px;
-}
+<section class="models">
 
-.model-card{
+    <div class="container">
 
-    background:#fff;
+        <div class="section-title">
+            <h2>BMW Modelinizi Seçin</h2>
+            <p>Aracınıza uygun modeli seçin.</p>
+        </div>
 
-    border-radius:20px;
+        <div class="model-grid">
 
-    overflow:hidden;
+            <div class="model-card">
+                <img src="images/hero1.jpg" alt="3 Serisi">
+                <h3>3 Serisi</h3>
+                <p>E46 • E90 • F30 • G20</p>
+            </div>
 
-    box-shadow:0 15px 30px rgba(0,0,0,.08);
+            <div class="model-card">
+                <img src="images/hero2.jpg" alt="X Serisi">
+                <h3>X Serisi</h3>
+                <p>X1 • X3 • X5 • X6</p>
+            </div>
 
-    transition:.3s;
+            <div class="model-card">
+                <img src="images/hero3.jpg" alt="M Serisi">
+                <h3>M Serisi</h3>
+                <p>M2 • M3 • M4 • M5</p>
+            </div>
 
-}
+        </div>
 
-.model-card:hover{
+    </div>
 
-    transform:translateY(-10px);
-
-}
-
-.model-card img{
-
-    width:100%;
-
-    height:230px;
-
-    object-fit:cover;
-
-}
-
-.model-card h3{
-
-    margin:20px;
-
-}
-
-.model-card p{
-
-    margin:0 20px 20px;
-
-    color:#666;
-
-}
+</section>
 <!-- ŞASE NO SORGULAMA -->
 
 <section class="vin-search">
