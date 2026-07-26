@@ -1,6 +1,21 @@
+const slides = document.querySelectorAll(".slide");
 
-// BMW Yedek Parça Sitesi
+let index = 0;
 
-console.log("BMW Yedek Parça Sitesi Hazır");
+function changeSlide(){
 
-// Menü ve diğer özellikler burada geliştirilecek.
+    slides[index].classList.remove("active");
+
+    index++;
+
+    if(index >= slides.length){
+
+        index = 0;
+
+    }
+
+    slides[index].classList.add("active");
+
+}
+
+setInterval(changeSlide,4000);
