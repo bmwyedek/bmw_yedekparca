@@ -245,3 +245,100 @@ nav a:hover{
 .model-card:hover span{
     color:#fff;
 }
+/* ==========================
+   VIN SEARCH
+========================== */
+
+.vin-search{
+
+    padding:100px 0;
+
+    background:linear-gradient(135deg,#0066ff,#4da3ff);
+
+}
+
+.vin-box{
+
+    background:#fff;
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:60px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+}
+
+.vin-box h2{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+.vin-box p{
+
+    color:#666;
+
+    margin-bottom:35px;
+
+}
+
+.vin-box form{
+
+    display:flex;
+
+    gap:15px;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+}
+
+.vin-box input{
+
+    width:500px;
+
+    max-width:100%;
+
+    padding:18px;
+
+    border-radius:50px;
+
+    border:2px solid #ddd;
+
+    font-size:17px;
+
+}
+
+.vin-box button{
+
+    padding:18px 35px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#0066ff;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:600;
+
+}
+
+.vin-box button:hover{
+
+    background:#004dcc;
+
+}
