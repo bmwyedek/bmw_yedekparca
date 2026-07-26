@@ -552,3 +552,39 @@ footer{
     color:#aaa;
 
 }
+/* ==========================
+   MÜŞTERİ YORUMLARI
+========================== */
+
+.testimonials{
+    padding:100px 0;
+    background:#f8f9fb;
+}
+
+.testimonial-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.testimonial-card{
+    background:#fff;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.testimonial-card:hover{
+    transform:translateY(-8px);
+}
+
+.testimonial-card p{
+    margin:20px 0;
+    color:#666;
+    line-height:1.7;
+}
+
+.testimonial-card h4{
+    color:#0066ff;
+}
