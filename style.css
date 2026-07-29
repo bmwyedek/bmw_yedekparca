@@ -51,10 +51,10 @@ header .container{
     font-weight: 700;
 }
 
-.logo img {
-    width: 45px;
-    height: 45px;
-    object-fit: contain;
+.logo img{
+    height:60px;
+    width:auto;
+    display:block;
 }
 
 nav{
