@@ -713,3 +713,40 @@ footer{
         bottom: 15px;
     }
 }
+/* ==========================
+   KATEGORİLER
+========================== */
+
+.categories{
+    padding:90px 0;
+    background:#fff;
+}
+
+.category-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.category-card{
+    background:#f8f9fb;
+    border-radius:20px;
+    padding:35px;
+    text-align:center;
+    transition:.3s;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.category-card:hover{
+    transform:translateY(-8px);
+}
+
+.category-card i{
+    font-size:45px;
+    color:#0066ff;
+    margin-bottom:20px;
+}
+
+.category-card h3{
+    font-size:22px;
+}
