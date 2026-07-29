@@ -2,6 +2,9 @@
    BMW YEDEK PARÇA
    STYLE.CSS
 ========================== */
+html {
+    scroll-behavior: smooth;
+}
 
 *{
     margin:0;
