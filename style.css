@@ -643,3 +643,73 @@ footer{
     inset:0;
     background:rgba(0,0,0,.45);
 }
+/* ==========================
+   MOBİL UYUMLULUK
+========================== */
+
+@media (max-width: 768px){
+
+    header .container{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text h1{
+        font-size: 38px;
+    }
+
+    .hero-text p{
+        font-size: 16px;
+    }
+
+    .hero-buttons{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-info{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .hero-image img{
+        max-width: 100%;
+    }
+
+    .contact-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .model-grid,
+    .product-grid,
+    .testimonial-grid,
+    .footer-grid,
+    .features .container,
+    .stats .container{
+        grid-template-columns: 1fr;
+    }
+
+    .section-title h2{
+        font-size: 30px;
+    }
+
+    .whatsapp-fixed{
+        width: 55px;
+        height: 55px;
+        font-size: 28px;
+        right: 15px;
+        bottom: 15px;
+    }
+}
