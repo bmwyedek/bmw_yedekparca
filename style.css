@@ -543,20 +543,20 @@ footer p{
 
     .hero-content h1{
 
-        font-size:48px;
+        font-size:52px;
 
     }
 
     .hero-content h2{
 
-        font-size:24px;
+        font-size:22px;
 
     }
 
     .hero-content p{
 
-        font-size:16px;
-        line-height:28px;
+        font-size:15px;
+        line-height:26px;
 
     }
 
@@ -647,4 +647,15 @@ footer p{
     background-repeat:no-repeat;
 }
 
+}
+.header .container{
+    height:70px;
+}
+
+.logo h2{
+    font-size:24px;
+}
+
+.logo span{
+    font-size:11px;
 }
