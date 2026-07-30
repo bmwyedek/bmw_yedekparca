@@ -1,4 +1,4 @@
-/*==========================
+0/*==========================
     GENEL AYARLAR
 ==========================*/
 
@@ -636,5 +636,15 @@ footer p{
         text-align:center;
 
     }
+
+}
+@media(max-width:768px){
+
+.hero{
+    height:75vh;
+    background-size:contain;
+    background-position:center top;
+    background-repeat:no-repeat;
+}
 
 }
