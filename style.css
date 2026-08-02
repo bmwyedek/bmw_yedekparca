@@ -248,12 +248,11 @@ section{
 }
 
 .category-card img{
-    width:180px;
-    height:180px;
+    width:140px;
+    height:140px;
     object-fit:contain;
     display:block;
-    margin:0 auto 20px;
-    border-radius:10px;
+    margin:15px auto;
 }
 
 .category-card h3{
@@ -544,4 +543,12 @@ footer p{
 .categories{
     background:#050505;
     padding:100px 0;
+}
+.category-card{
+    min-height:430px;
+}
+
+.category-card img{
+    max-width:140px !important;
+    max-height:140px !important;
 }
