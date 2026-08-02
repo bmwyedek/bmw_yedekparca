@@ -228,7 +228,11 @@ section{
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
     gap:30px;
 }
-
+.category-card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
 .category-card{
     background:#111;
     border-radius:18px;
@@ -536,4 +540,8 @@ footer p{
 
 ::-webkit-scrollbar-thumb:hover{
     background:#0087db;
+}
+.categories{
+    background:#050505;
+    padding:100px 0;
 }
