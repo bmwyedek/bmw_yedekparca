@@ -1010,3 +1010,21 @@ background:#000;
 box-shadow:0 5px 20px rgba(0,0,0,.4);
 
 }
+/* Footer ile WhatsApp butonu çakışmasın */
+
+#floatingWhatsapp{
+    right:20px;
+    bottom:20px;
+    width:60px;
+    height:60px;
+    font-size:30px;
+}
+
+#topButton{
+    right:20px;
+    bottom:90px;
+}
+
+footer{
+    padding-bottom:120px;
+}
