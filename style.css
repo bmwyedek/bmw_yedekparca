@@ -148,13 +148,10 @@ nav a:hover{
 
 .category-card img{
     width:100%;
-    height:320px;
-    object-fit:contain;
-    background:#fff;
-    border-radius:12px;
-    padding:15px;
-    margin-bottom:20px;
-    transition:.3s;
+    height:180px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:15px;
 }
 
 .category-card:hover img{
@@ -272,4 +269,27 @@ footer p{
         width:100%;
         text-align:center;
     }
+}
+/* Ürün sayfalarındaki resimler */
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.product-card{
+    background:#111;
+    border-radius:18px;
+    padding:20px;
+    text-align:center;
+    border:1px solid #222;
+}
+
+.product-card img{
+    width:200px;
+    height:200px;
+    object-fit:contain;
+    display:block;
+    margin:0 auto 15px;
 }
