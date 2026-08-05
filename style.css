@@ -133,11 +133,10 @@ nav a:hover{
 
 .category-card{
     background:#111;
-    border-radius:18px;
+    border-radius:15px;
     padding:20px;
     text-align:center;
-    transition:.3s;
-    border:1px solid #222;
+    border:1px solid #333;
 }
 
 .category-card:hover{
@@ -147,11 +146,14 @@ nav a:hover{
 }
 
 .category-card img{
-    width:100%;
+    width:220px;
     height:180px;
-    object-fit:cover;
+    object-fit:contain;
+    display:block;
+    margin:15px auto;
+    background:#fff;
     border-radius:10px;
-    margin-bottom:15px;
+    padding:10px;
 }
 
 .category-card:hover img{
