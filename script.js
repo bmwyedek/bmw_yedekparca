@@ -299,3 +299,53 @@ gap:15px;
 }
 
 }
+/* WhatsApp Sabit Butonu */
+
+#floatingWhatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(0,0,0,.35);
+    z-index: 9999;
+}
+
+#floatingWhatsapp:hover{
+    transform: scale(1.1);
+}
+
+/* Yukarı Çık Butonu */
+
+#topButton{
+    position: fixed;
+    right: 20px;
+    bottom: 95px;
+    width: 55px;
+    height: 55px;
+    border: none;
+    border-radius: 50%;
+    background: #0b84ff;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    z-index: 9998;
+}
+
+/* Footer boşluğu */
+
+footer{
+    background:#050505;
+    padding:50px 0 140px;
+    text-align:center;
+    border-top:1px solid #222;
+}
