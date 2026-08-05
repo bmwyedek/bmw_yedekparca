@@ -1025,3 +1025,29 @@ box-shadow:0 5px 20px rgba(0,0,0,.4);
 footer{
     padding-bottom:120px;
 }
+/* MOBİL HERO DÜZELTME */
+@media (max-width:768px){
+
+header{
+    position:relative;
+}
+
+.hero{
+    min-height:auto;
+    padding-top:40px;
+}
+
+.hero-content{
+    padding-top:60px;
+}
+
+.hero-left{
+    margin-top:80px;
+}
+
+.hero-left h1{
+    font-size:42px;
+    line-height:1.2;
+}
+
+}
