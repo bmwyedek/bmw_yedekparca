@@ -211,7 +211,9 @@ display:flex;
 align-items:center;
 
 position:relative;
-
+   
+padding-top:120px;
+   
 background:url("images/hero-bg.jpg") center center/cover no-repeat;
 
 }
@@ -227,23 +229,15 @@ background:rgba(0,0,0,.70);
 }
 
 .hero-content{
+    position:relative;
+    z-index:2;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:70px;
 
-position:relative;
-
-z-index:2;
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-gap:70px;
-
-padding-top:120px;
-
-padding-bottom:80px;
-
+    padding-top:120px;   /* 120 yerine 220 */
+    padding-bottom:80px;
 }
 
 .hero-left{
